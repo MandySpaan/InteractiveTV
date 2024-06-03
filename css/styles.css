@@ -1,0 +1,67 @@
+body {
+    background-color: lightgray;
+
+    height: 100vh;
+    width: 100vw;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* TELEVISION */
+
+#television {
+    height: 100vh;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tv-border {
+    background-color: black;
+    height: 30em;
+    width: 51.5em;
+
+    border-radius: 0.5em;
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+#tv-screen {
+    background-color: rgb(54, 54, 54);
+    height: 27em;
+    width: 49em;
+
+    margin-top: 1em;
+
+    border-radius: 0.5em;
+}
+
+#foot-vertical {
+    background-color: black;
+    height: 4.7em;
+    width: 2.1em;
+}
+
+#foot-horizontal {
+    background-color: black;
+    height: 1.3em;
+    width: 17em;
+}
+
+/* REMOTE CONTROL */
+
+#remote-box {
+    background-color: black;
+    height: 21em;
+    width: 8.5em;
+}
