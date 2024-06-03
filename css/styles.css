@@ -18,6 +18,8 @@ body {
     height: 100vh;
     width: auto;
 
+    margin: 1em;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +27,7 @@ body {
 }
 
 #tv-border {
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     height: 30em;
     width: 51.5em;
 
@@ -60,8 +62,57 @@ body {
 
 /* REMOTE CONTROL */
 
+#remote {
+    margin: 1em;
+}
+
 #remote-box {
-    background-color: black;
+    background-color: rgb(31, 31, 31);
     height: 21em;
     width: 8.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#on-off {
+    height: 4em;
+    width: 8.5em;
+}
+
+#vol-ch {
+    height: 8.5em;
+    width: 8.5em;
+}
+
+#channels {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    height: 7.5em;
+    width: 7.5em;
+}
+
+.number-button {
+    background-color: rgb(41, 41, 41);
+    height: 1.6em;
+    width: 1.6em;
+
+    border-radius: 1em;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1em;
+    font-weight: bold;
+    color: grey;
 }
