@@ -83,6 +83,8 @@ body {
 #on-off {
     height: 4em;
     width: 8.5em;
+
+    display: flex;
 }
 
 #on-off-button {
@@ -127,6 +129,40 @@ body {
     border-radius: 1em;
     box-sizing: border-box;
 }
+
+#info-button {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info-circle {
+    background-color: rgb(41, 41, 41);
+    height: 1.6em;
+    width: 1.6em;
+
+    border-radius: 1em;
+    border-width: 0.2em;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    #info-text {
+        color: grey;
+        font-size: 1em;
+        font-weight: bold;
+
+        margin-top: 0.2em;
+        margin-left: 0.03em;
+    }
 
 #vol-ch {
     height: 8.5em;
