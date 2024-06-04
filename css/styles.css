@@ -165,8 +165,9 @@ body {
     }
 
 #vol-ch {
-    height: 8.5em;
+    height: 7.5em;
     width: 8.5em;
+    padding-top: 0.2em;
     display: flex;
 }
 
@@ -208,7 +209,7 @@ body {
     align-items: center;
     text-align: center;
 
-    height: 7.5em;
+    height: 8.5em;
     width: 7.5em;
 }
 
