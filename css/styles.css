@@ -174,6 +174,16 @@ body {
     }
 }
 
+.info-off {
+    display: none;
+}
+
+.info-on {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
 #foot-vertical {
     background-color: black;
     height: 4.7em;
@@ -233,6 +243,13 @@ body {
     justify-content: center;
 }
 
+#red-circle:active {
+    background-color: rgb(235, 50, 50);
+    #white-stripe {
+        border-color: rgb(235, 50, 50);
+    }
+}
+
 #white-stripe {
     background-color: white;
     height: 0.8em;
@@ -281,7 +298,11 @@ body {
     justify-content: center;
     }
 
-    #info-text {
+    #info-circle:active {
+        background-color: rgb(51, 51, 51);
+    }
+
+    #info-icon {
         color: grey;
         font-size: 1em;
         font-weight: bold;
@@ -356,4 +377,8 @@ body {
     font-size: 1em;
     font-weight: bold;
     color: grey;
+}
+
+.number-button:active {
+    background-color: rgb(51, 51, 51);
 }

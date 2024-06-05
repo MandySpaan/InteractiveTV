@@ -1,7 +1,11 @@
 let change = false;
+let infoChange = false;
+
 let tvScreen = document.getElementById("tv-screen");
 let onOffButton = document.getElementById("on-off-button");
 let numberButton = document.getElementsByClassName("number-button");
+let infoButton = document.getElementById("info-button");
+let tvInfo = document.getElementById("tv-info");
 
 let arrayChanels = Array.from(numberButton);
 
@@ -16,4 +20,9 @@ for (let i = 0; i < arrayChanels.length; i++) {
 onOffButton.addEventListener("click", () => {
   tvScreen.classList.toggle("on");
   change = !change;
+});
+
+infoButton.addEventListener("click", () => {
+  tvInfo.classList.toggle("info-on");
+  infoChange = !infoChange;
 });
