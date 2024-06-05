@@ -52,13 +52,30 @@ body {
 }
 
 .off{
-    img {
+    #static {
+        display: none;
+    }
+    #ch1 {
         display: none;
     }
 }
 
 .on{
-    img {
+    #static {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #ch1 {
+        display: none;
+    }
+}
+
+.ch1 {
+    #static {
+        display: none;
+    }
+    #ch1 {
         display: block;
         width: 100%;
         height: 100%;
