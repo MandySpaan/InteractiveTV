@@ -41,7 +41,7 @@ body {
     justify-content: center;
 }
 
-.off{
+#tv-screen {
     background-color: rgb(54, 54, 54);
     height: 27em;
     width: 49em;
@@ -49,20 +49,15 @@ body {
     margin-top: 1em;
 
     border-radius: 0.5em;
+}
 
+.off{
     img {
         display: none;
     }
 }
 
 .on{
-    height: 27em;
-    width: 49em;
-
-    margin-top: 1em;
-
-    border-radius: 0.5em;
-
     img {
         display: block;
         width: 100%;
