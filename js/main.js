@@ -8,7 +8,7 @@ let arrayChanels = Array.from(numberButton);
 for (let i = 0; i < arrayChanels.length; i++) {
   arrayChanels[i].addEventListener("click", () => {
     if (change) {
-      tvScreen.classList.toggle(`ch${i + 1}`);
+      tvScreen.classList.replace(tvScreen.classList[0], `ch${i + 1}`);
     }
   });
 }
