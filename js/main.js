@@ -11,6 +11,18 @@ let dateTime = document.getElementById("date");
 
 let arrayChanels = Array.from(numberButton);
 
+let now = new Date();
+let hour = String(now.getHours()).padStart(2, "0");
+let minute = String(now.getMinutes()).padStart(2, "0");
+let formattedTime = `${hour}:${minute}`;
+
+let year = now.getFullYear();
+let month = String(now.getMonth() + 1).padStart(2, "0"); // Months are zero-indexed
+let day = String(now.getDate()).padStart(2, "0");
+let formattedDate = `${day}-${month}-${year}`;
+
+console.log(formattedDate);
+
 for (let i = 0; i < arrayChanels.length; i++) {
   arrayChanels[i].addEventListener("click", () => {
     if (change) {
@@ -20,7 +32,7 @@ for (let i = 0; i < arrayChanels.length; i++) {
   });
 }
 
-dateTime.innerHTML = "date and time";
+dateTime.innerHTML = formattedDate + "<br>" + formattedTime;
 
 onOffButton.addEventListener("click", () => {
   tvScreen.classList.toggle("on");
