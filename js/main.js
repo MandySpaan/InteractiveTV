@@ -20,6 +20,7 @@ for (let i = 0; i < arrayChanels.length; i++) {
 onOffButton.addEventListener("click", () => {
   tvScreen.classList.toggle("on");
   change = !change;
+  !change ? tvScreen.classList.replace(tvScreen.classList[0], "off") : null;
 });
 
 infoButton.addEventListener("click", () => {
