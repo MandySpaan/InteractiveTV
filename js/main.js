@@ -7,6 +7,7 @@ let numberButton = document.getElementsByClassName("number-button");
 let infoButton = document.getElementById("info-button");
 let tvInfo = document.getElementById("tv-info");
 let chanelName = document.getElementById("chanel-name");
+let dateTime = document.getElementById("date");
 
 let arrayChanels = Array.from(numberButton);
 
@@ -19,13 +20,24 @@ for (let i = 0; i < arrayChanels.length; i++) {
   });
 }
 
+dateTime.innerHTML = "date and time";
+
 onOffButton.addEventListener("click", () => {
   tvScreen.classList.toggle("on");
   change = !change;
-  !change ? tvScreen.classList.replace(tvScreen.classList[0], "off") : null;
+  if (!change) {
+    tvScreen.classList.replace(tvScreen.classList[0], "off");
+    infoChange = false;
+    tvInfo.classList.remove("info-on");
+    chanelName.innerHTML = "";
+  } else {
+    null;
+  }
 });
 
 infoButton.addEventListener("click", () => {
-  tvInfo.classList.toggle("info-on");
-  infoChange = !infoChange;
+  if (change) {
+    tvInfo.classList.toggle("info-on");
+    infoChange = !infoChange;
+  }
 });
