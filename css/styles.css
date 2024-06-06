@@ -184,14 +184,17 @@ body {
     justify-content: space-between;
     color: white;
     position: absolute;
-    width: 100%;
+    width: 99%;
     top: 0;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bolder;
-    text-shadow: -0.02em -0.02em 0 rgb(0, 0, 0), 0.02em -0.02em 0 rgb(0, 0, 0), -0.02em 0.02em 0 rgb(0, 0, 0), 0.02em 0.02em 0 rgb(0, 0, 0);
+    text-shadow: -0.04em -0.04em 0 rgb(0, 0, 0), 0.04em -0.04em 0 rgb(0, 0, 0), -0.04em 0.04em 0 rgb(0, 0, 0), 0.04em 0.04em 0 rgb(0, 0, 0);
 }
 
-
+#date, #chanel-name {
+    padding-top: 0.2em;
+    padding-left: 1.5%;
+}
 
 #foot-vertical {
     background-color: black;
@@ -250,6 +253,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    cursor: pointer;
 }
 
 #red-circle:active {
@@ -305,6 +310,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    cursor: pointer;
     }
 
     #info-circle:active {
@@ -317,7 +324,7 @@ body {
         font-weight: bold;
 
         margin-top: 0.2em;
-        margin-left: 0.03em;
+        margin-left: 0.04em;
     }
 
 #vol-ch {
@@ -386,6 +393,8 @@ body {
     font-size: 1em;
     font-weight: bold;
     color: grey;
+
+    cursor: pointer;
 }
 
 .number-button:active {
