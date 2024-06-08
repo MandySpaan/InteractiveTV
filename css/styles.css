@@ -218,14 +218,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    background-color: rgb(31, 31, 31);
-    height: 21em;
-    width: 8.5em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #on-off {
