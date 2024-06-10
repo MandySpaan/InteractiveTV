@@ -22,7 +22,7 @@ This project simulates an interactive TV with a remote control. Users can turn t
 - Switch between 9 different channels
 - Display channel information and the current date and time
 
-## How to open
+## How to Open
 
 You can view the website simply by following the link: https://mandyspaan.github.io/GH_P2_InteractiveTV/
 
@@ -39,3 +39,9 @@ Or by cloning the repository to your device:
 - Use the on/off button to turn the TV on and off.
 - Use the channel buttons to switch between different channels.
 - Press the info button to toggle the display of channel information and the current date and time.
+
+## Points of Improvement
+
+- Make the VOL and CH buttons work
+- Make the page responsive
+- Improve the layout
