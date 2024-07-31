@@ -1,6 +1,6 @@
 # Interactive TV
 
-This project simulates an interactive TV with a remote control. Users can turn the TV on and off, switch channels, and display information about the current channel.
+This project simulates an interactive TV with a remote control. Users can turn the TV on and off, switch channels, and display information about the current channel. The aim of this project was an introduction to and some practice with JavaScript, as an assignment for the Bootcamp Full Stack Developer course by GeeksHubs.
 
 ## Stack
 
