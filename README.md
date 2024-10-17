@@ -4,7 +4,6 @@ This project simulates an interactive TV with a remote control. Users can turn t
 
 ## Stack
 
-<div align="center">
 <a href="https://developer.mozilla.org/es/docs/Web/HTML">
     <img src= "https://img.shields.io/badge/HTML5-FF6C37?style=for-the-badge&logo=HTML5&logoColor=white"/>
 </a>
@@ -14,7 +13,6 @@ This project simulates an interactive TV with a remote control. Users can turn t
 <a href="https://www.javascript.com/">
     <img src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </a>
- </div>
 
 ## Features
 
@@ -24,7 +22,7 @@ This project simulates an interactive TV with a remote control. Users can turn t
 
 ## How to Open
 
-You can view the website simply by following the link: https://mandyspaan.github.io/GH_P2_InteractiveTV/
+You can view the website simply by following the link: [mandyspaan.github.io/InteractiveTV/](https://mandyspaan.github.io/InteractiveTV/)
 
 Or by cloning the repository to your device:
 
